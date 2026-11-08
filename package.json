@@ -1,0 +1,14 @@
+{
+  "name": "el-rawda-elshrifa-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "El Rawda Elshrifa import and export landing page built with HTML, Tailwind CSS CLI and vanilla JavaScript.",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}

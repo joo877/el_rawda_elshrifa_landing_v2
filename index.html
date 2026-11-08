@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="El Rawda Elshrifa — Import, export and global trade solutions."
+    />
+    <title>El Rawda Elshrifa | Import & Export</title>
+    <link rel="icon" href="assets/favo.png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Tailwind CLI output -->
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+
+  <body class="bg-stone-50 text-green-950 antialiased overflow-x-hidden">
+    <!-- NAVBAR -->
+    <header
+      class="fixed left-0 right-0 top-0 z-50 px-3 pt-3 sm:px-6 sm:pt-4 lg:px-8"
+    >
+      <nav
+        class="mx-auto max-w-7xl rounded-3xl border border-black/5 bg-stone-50/95 shadow-sm backdrop-blur-md lg:rounded-full"
+      >
+        <div
+          class="flex h-16 items-center justify-between px-4 sm:h-16 sm:px-7"
+        >
+          <a href="#home" class="shrink-0" aria-label="El Rawda Elshrifa home">
+            <img
+              src="assets/FullLogo_Transparent.png"
+              alt="El Rawda Elshrifa"
+              class="h-16 w-auto object-contain sm:h-12 lg:h-14"
+            />
+          </a>
+
+          <div class="hidden items-center gap-6 lg:flex xl:gap-7">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#products">Our Products</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#why-us">Why Us</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+
+          <a
+            href="#contact"
+            class="hidden items-center rounded-full bg-green-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-900 lg:inline-flex"
+          >
+            Get in Touch <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+          </a>
+
+          <button
+            id="menuBtn"
+            type="button"
+            class="grid h-10 w-10 place-items-center rounded-full border border-green-200 text-green-900 transition hover:bg-green-100 lg:hidden"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+          >
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+        </div>
+
+        <!-- Mobile menu: full-width, simple vertical list -->
+        <div
+          id="mobileMenu"
+          class="hidden border-t border-black/5 px-4 pb-4 pt-2 lg:hidden"
+        >
+          <div class="flex flex-col gap-1">
+            <a class="mobile-link" href="#home"
+              ><i class="fa-solid fa-house mr-3 w-4 text-green-700"></i>Home</a
+            >
+            <a class="mobile-link" href="#about"
+              ><i class="fa-solid fa-building mr-3 w-4 text-green-700"></i>About
+              Us</a
+            >
+            <a class="mobile-link" href="#products"
+              ><i class="fa-solid fa-box-open mr-3 w-4 text-green-700"></i>Our
+              Products</a
+            >
+            <a class="mobile-link" href="#services"
+              ><i class="fa-solid fa-globe mr-3 w-4 text-green-700"></i
+              >Services</a
+            >
+            <a class="mobile-link" href="#why-us"
+              ><i class="fa-solid fa-circle-check mr-3 w-4 text-green-700"></i
+              >Why Us</a
+            >
+            <a class="mobile-link" href="#contact"
+              ><i class="fa-solid fa-envelope mr-3 w-4 text-green-700"></i
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section
+        id="home"
+        class="relative min-h-170 overflow-hidden bg-green-950 pt-24 sm:pt-28"
+      >
+        <img
+          src="assets/hero.jpg"
+          alt="Container ship at a global port"
+          class="absolute inset-0 h-full w-full object-cover object-center sm:object-right"
+        />
+        <div
+          class="absolute inset-0 bg-linear-to-r from-green-950/95 via-green-950/80 to-green-950/10"
+        ></div>
+        <div
+          class="absolute inset-0 bg-[radial-gradient(circle_at_4%_62%,rgba(134,239,172,.18),transparent_20%),radial-gradient(circle_at_11%_35%,rgba(74,222,128,.12),transparent_13%)]"
+        ></div>
+
+        <div
+          class="relative mx-auto flex min-h-152.5 max-w-7xl items-center px-6 pb-20 pt-12 lg:px-8"
+        >
+          <div class="max-w-2xl text-white">
+            <p
+              class="mb-5 text-xs font-semibold uppercase tracking-[0.35em] text-green-200"
+            >
+              Import <span class="mx-2">•</span> Export
+              <span class="mx-2">•</span> Global Trade
+            </p>
+            <h1
+              class="font-display text-5xl leading-[1.02] sm:text-6xl lg:text-7xl"
+            >
+              Connecting Markets
+              <span class="block text-green-300">Building Opportunities</span>
+            </h1>
+            <p
+              class="mt-6 max-w-xl text-base leading-7 text-white/85 sm:text-lg"
+            >
+              El Rawda Elshrifa is your trusted partner in international trade,
+              importing and exporting high-quality products to and from global
+              markets with efficiency and reliability.
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#products"
+                class="inline-flex items-center rounded-full bg-green-700 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-green-600"
+              >
+                Explore Our Products
+                <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+              </a>
+              <a
+                href="#about"
+                class="inline-flex items-center rounded-full border border-white/70 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-white hover:text-green-950"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="why-us" class="border-b border-black/5 bg-stone-100">
+        <div
+          class="mx-auto flex flex-col sm:justify-between sm:px-8 sm:py-8 sm:flex-row lg:py-10"
+        >
+          <article
+            class="feature-card basis-full px-2 py-5 text-center sm:basis-1/4 sm:px-3"
+          >
+            <div class="feature-icon">
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <h3 class="mt-3 font-display text-lg text-green-950">
+              Global Reach
+            </h3>
+            <p class="mt-1 max-w-47.5 text-xs leading-6 text-slate-600">
+              Connecting you to markets around the world.
+            </p>
+          </article>
+
+          <article
+            class="feature-card basis-full px-2 py-5 text-center sm:basis-1/4 sm:px-3"
+          >
+            <div class="feature-icon">
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+            <h3 class="mt-3 font-display text-lg text-green-950">
+              Trusted Partner
+            </h3>
+            <p class="mt-1 max-w-47.5 text-xs leading-6 text-slate-600">
+              Built on transparency, commitment and long-term relationships.
+            </p>
+          </article>
+
+          <article
+            class="feature-card basis-full text-center px-2 py-5 sm:basis-1/4 sm:px-3"
+          >
+            <div class="feature-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="mt-3 font-display text-lg text-green-950">
+              Quality Products
+            </h3>
+            <p class="mt-1 max-w-47.5 text-xs leading-6 text-slate-600">
+              Carefully selected to meet your business needs.
+            </p>
+          </article>
+
+          <article
+            class="feature-card basis-full text-center px-2 py-5 sm:basis-1/4 sm:px-3"
+          >
+            <div class="feature-icon">
+              <i class="fa-solid fa-arrows-left-right"></i>
+            </div>
+            <h3 class="mt-3 font-display text-lg text-green-950">
+              Seamless Process
+            </h3>
+            <p class="mt-1 max-w-47.5 text-xs leading-6 text-slate-600">
+              From sourcing to delivery, we handle it all.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section id="about" class="section-pad bg-stone-50">
+        <div
+          class="mx-auto flex max-w-7xl flex-col gap-10 px-6 sm:px-8 lg:flex-row lg:items-center lg:gap-12"
+        >
+          <div class="w-full overflow-hidden rounded-2xl lg:w-5/12">
+            <img
+              src="assets/about.jpg"
+              alt="Cargo containers at a port"
+              class="h-80 w-full object-cover sm:h-96"
+            />
+          </div>
+
+          <div class="w-full lg:w-6/12">
+            <p
+              class="section-kicker text-xs font-bold uppercase tracking-[0.3em] text-green-700"
+            >
+              About Us
+            </p>
+            <h2
+              class="section-title mt-2 font-display text-4xl leading-tight text-green-950 sm:text-5xl"
+            >
+              El Rawda Elshrifa
+            </h2>
+            <p class="mt-5 max-w-xl leading-7 text-slate-700">
+              We are a leading import and export company, committed to bringing
+              the best products from around the world to our customers, and
+              opening new markets for high-quality goods. With our experience
+              and strong global network, we ensure smooth trade and reliable
+              partnerships.
+            </p>
+            <a
+              href="#contact"
+              class="mt-7 inline-flex items-center rounded-full bg-green-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-900"
+            >
+              Our Story <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+
+          <div
+            class="w-full border-t border-green-950 pt-6 lg:w-3/12 lg:border-l lg:border-t-0 lg:pl-9 lg:pt-0"
+          >
+            <div class="stat-row">
+              <span class="stat-icon"
+                ><i class="fa-solid fa-earth-americas"></i
+              ></span>
+              <div><span>Global Markets</span><strong>20+</strong></div>
+            </div>
+            <div class="stat-row">
+              <span class="stat-icon"
+                ><i class="fa-solid fa-handshake"></i
+              ></span>
+              <div><span>Trusted Partners</span><strong>50+</strong></div>
+            </div>
+            <div class="stat-row">
+              <span class="stat-icon"
+                ><i class="fa-solid fa-boxes-stacked"></i
+              ></span>
+              <div><span>Products Categories</span><strong>100+</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section id="products" class="section-pad bg-green-50">
+        <div
+          class="mx-auto flex max-w-7xl flex-col gap-10 px-6 sm:px-8 lg:flex-row lg:items-center"
+        >
+          <div class="w-full lg:w-1/3">
+            <p
+              class="section-kicker text-xs font-bold uppercase tracking-[0.3em] text-green-700"
+            >
+              Our Products
+            </p>
+            <h2
+              class="section-title mt-2 font-display text-4xl leading-tight text-green-950 sm:text-5xl"
+            >
+              Wide Range of Products
+            </h2>
+            <p class="mt-5 max-w-lg leading-7 text-slate-700">
+              We deal in a variety of high-quality products across multiple
+              sectors to meet the diverse needs of our clients worldwide.
+            </p>
+            <a
+              href="#contact"
+              class="mt-7 inline-flex items-center rounded-full bg-green-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-900"
+            >
+              View All Products
+              <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+
+          <div class="flex w-full flex-wrap gap-4">
+            <article class="product-card">
+              <img src="assets/agricultural.jpg" alt="Agricultural products" />
+              <div>
+                <h3>Agricultural Products</h3>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/industrial.jpg" alt="Industrial materials" />
+              <div>
+                <h3>Industrial Materials</h3>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/consumer.jpg" alt="Consumer goods" />
+              <div>
+                <h3>Consumer Goods</h3>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/raw-materials.jpg" alt="Raw materials" />
+              <div>
+                <h3>Raw Materials</h3>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="section-pad bg-stone-100">
+        <div
+          class="mx-auto flex max-w-7xl flex-col gap-10 px-6 sm:px-8 lg:flex-row lg:items-center"
+        >
+          <div class="w-full lg:w-5/12">
+            <p
+              class="section-kicker text-xs font-bold uppercase tracking-[0.3em] text-green-700"
+            >
+              Our Services
+            </p>
+            <h2
+              class="section-title mt-2 font-display text-4xl leading-tight text-green-950 sm:text-5xl"
+            >
+              Global Trade Solutions
+            </h2>
+            <p class="mt-5 max-w-xl leading-7 text-slate-700">
+              We provide comprehensive import and export services, including
+              sourcing, logistics, customs clearance and delivery, ensuring your
+              goods reach their destination safely and on time.
+            </p>
+
+            <div class="mt-9 flex flex-wrap gap-x-5 gap-y-7">
+              <div
+                class="service-mini w-[calc(50%-0.625rem)] sm:w-1/4 lg:w-[calc(50%-0.625rem)] xl:w-1/4"
+              >
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <p>Sourcing</p>
+              </div>
+              <div
+                class="service-mini w-[calc(50%-0.625rem)] sm:w-1/4 lg:w-[calc(50%-0.625rem)] xl:w-1/4"
+              >
+                <span><i class="fa-solid fa-truck-fast"></i></span>
+                <p>Logistics</p>
+              </div>
+              <div
+                class="service-mini w-[calc(50%-0.625rem)] sm:w-1/4 lg:w-[calc(50%-0.625rem)] xl:w-1/4"
+              >
+                <span><i class="fa-solid fa-file-shield"></i></span>
+                <p>Customs Clearance</p>
+              </div>
+              <div
+                class="service-mini w-[calc(50%-0.625rem)] sm:w-1/4 lg:w-[calc(50%-0.625rem)] xl:w-1/4"
+              >
+                <span><i class="fa-solid fa-plane-departure"></i></span>
+                <p>Delivery</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full overflow-hidden rounded-2xl lg:w-7/12">
+            <img
+              src="assets/services-map.jpg"
+              alt="Global trade routes map"
+              class="h-80 w-full object-cover sm:h-96"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section-pad bg-stone-50">
+        <div
+          class="mx-auto flex max-w-7xl flex-col gap-8 px-6 sm:px-8 lg:flex-row lg:items-center"
+        >
+          <div class="w-full lg:w-2/5">
+            <p
+              class="section-kicker text-xs font-bold uppercase tracking-[0.3em] text-green-700"
+            >
+              What Our Clients Say
+            </p>
+            <h2
+              class="section-title mt-2 font-display text-4xl leading-tight text-green-950 sm:text-5xl"
+            >
+              Trusted by Businesses Worldwide
+            </h2>
+            <p class="mt-5 max-w-lg leading-7 text-slate-700">
+              Our success is built on the trust and satisfaction of our partners
+              and clients.
+            </p>
+          </div>
+
+          <div class="flex w-full flex-col gap-4 md:flex-row lg:w-3/5">
+            <article class="testimonial-card flex-1">
+              <div class="quote">“</div>
+              <p>
+                El Rawda Elshrifa has been an excellent partner for our
+                business. Their professionalism, reliability and commitment are
+                truly outstanding.
+              </p>
+            </article>
+            <article class="testimonial-card flex-1">
+              <div class="quote">“</div>
+              <p>
+                Working with El Rawda Elshrifa made our export process simple
+                and smooth. We appreciate their dedication and excellent
+                customer service.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="contact" class="px-4 pb-6 sm:px-6 lg:px-8 lg:pb-8">
+        <div class="mx-auto max-w-7xl overflow-hidden rounded-2xl bg-green-900">
+          <div
+            class="cta-leaves flex flex-col items-start justify-between gap-6 px-6 py-8 text-white sm:flex-row sm:items-center sm:px-12"
+          >
+            <div>
+              <h2 class="font-display text-3xl sm:text-4xl">
+                Let’s Grow Together
+              </h2>
+              <p class="mt-1 text-sm text-white/75">
+                Partner with El Rawda Elshrifa for your import and export needs.
+              </p>
+            </div>
+            <div class="flex w-full flex-wrap gap-3 sm:w-auto">
+              <a
+                href="tel:+201000000000"
+                class="inline-flex items-center rounded-full bg-green-600 px-5 py-3 text-sm font-semibold transition hover:bg-green-500"
+                ><i class="fa-solid fa-phone mr-2 text-xs"></i>Call Us</a
+              >
+              <a
+                href="https://wa.me/201000000000"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center rounded-full border border-white/40 px-5 py-3 text-sm font-semibold transition hover:bg-white hover:text-green-950"
+                ><i class="fa-brands fa-whatsapp mr-2"></i>WhatsApp</a
+              >
+              <a
+                href="mailto:info@example.com"
+                class="inline-flex items-center rounded-full border border-white/40 px-5 py-3 text-sm font-semibold transition hover:bg-white hover:text-green-950"
+                ><i class="fa-solid fa-envelope mr-2 text-xs"></i>Email</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-green-950 text-white pb-20">
+      <div class="mx-auto max-w-7xl px-6">
+        <div
+          class="flex flex-col gap-6 border-b border-white/15 px-5 py-6 lg:flex-row lg:items-center lg:justify-around"
+          <a
+            href="#home"
+            aria-label="El Rawda Elshrifa home"
+            class="rounded-xl"
+          >
+            <img
+              src="assets/FullLogo_Transparent.png"
+              alt="El Rawda Elshrifa"
+              class=" h-16 max-w-full object-contain sm:h-16"
+            />
+          </a>
+          <div class="flex flex-wrap gap-x-7 gap-y-3 text-sm text-white/80">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About Us</a>
+            <a href="#products" class="footer-link">Our Products</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="#why-us" class="footer-link">Why Us</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+          <div class="flex justify-center gap-6 py-3">
+            <a href="#" aria-label="LinkedIn" class="social"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="Facebook" class="social"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="X" class="social"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" aria-label="Instagram" class="social"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-3 pt-6 text-xs text-white/60 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <p>
+            © <span id="year"></span> El Rawda Elshrifa. All rights reserved.
+          </p>
+          <p class="tracking-[0.25em]">IMPORT • EXPORT • GLOBAL TRADE</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
